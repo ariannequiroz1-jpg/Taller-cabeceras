@@ -2,6 +2,7 @@
 #include "sumar.h"
 #include "restar.h"
 #include "multiplicacion.h"
+#include "division.h"
 int main(){
     int a,b;
     printf("Ingrese el 1er numero; ");
@@ -11,6 +12,7 @@ int main(){
     printf("La suma es: %d",sumar(a,b));
     printf("\nLa resta es: %d",restar(a,b));
     printf("\nLa multiplicacion es: %d",multiplicacion(a,b));
+    printf("\nLa division es: %d",division(a,b));
     return 0;
 
 }
